@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jhobus-v <jhobus-v@student.42.fr>          +#+  +:+       +#+        */
+/*   By: johnny <johnny@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 11:30:16 by jhobus-v          #+#    #+#             */
-/*   Updated: 2024/08/28 16:16:11 by jhobus-v         ###   ########.fr       */
+/*   Updated: 2024/09/05 21:00:26 by johnny           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ int		ft_toupper(int c);
 int		ft_printptr(unsigned long long ptr);
 int		ft_putstr(char *str, int printed_bytes);
 int		ft_puthex_upper(unsigned int hexa);
-int		ft_putnbr_fd(int n, int fd, int printed_bytes);
+int		ft_putnbr_fd(int n, int fd);
 int		ft_putchar_fd(char c, int fd);
-int		ft_putstr_fd(char *s, int fd, int printed_bytes);
+int		ft_putstr_fd(char *s, int fd);
 int		ft_putnbr_u_fd(unsigned int n, int fd);
 int		ft_puthexa(unsigned int hexa);
 
